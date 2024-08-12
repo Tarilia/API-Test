@@ -10,6 +10,7 @@ packages = [{include = "api_test"}]
 python = "^3.10"
 newsapi-python = "^0.2.7"
 python-dotenv = "^1.0.1"
+pyowm = "^3.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
