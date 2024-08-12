@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 
 import pyowm
 
+from datetime import datetime, timedelta
+
 
 load_dotenv()
 
@@ -51,15 +53,15 @@ def get_air_quality_in_london():
     list_of_forec = mgr_air.air_quality_forecast_at_coords(51.507351, -0.127758)
 
     weather = list_of_forec[0]
-    print(f"Текущий индекс качества воздуха: {air_status.aqi}")
-    print(f"CO: {air_status.co}")
-    print(f"NO: {air_status.no}")
-    print(f"NO2: {air_status.no2}")
-    print(f"O3: {air_status.o3}")
-    print(f"SO2: {air_status.so2}")
-    print(f"PM2.5: {air_status.pm2_5}")
-    print(f"PM10: {air_status.pm10}")
-    print(f"NH3: {air_status.nh3}")
+    print(f"Текущий индекс качества воздуха: { weather.aqi}")
+    print(f"CO: { weather.co}")
+    print(f"NO: { weather.no}")
+    print(f"NO2: { weather.no2}")
+    print(f"O3: { weather.o3}")
+    print(f"SO2: { weather.so2}")
+    print(f"PM2.5: { weather.pm2_5}")
+    print(f"PM10: { weather.pm10}")
+    print(f"NH3: { weather.nh3}")
 
 
 def main():
