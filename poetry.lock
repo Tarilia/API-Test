@@ -295,6 +295,17 @@ files = [
 ]
 
 [[package]]
+name = "tvdb-v4-official"
+version = "1.1.0"
+description = "tvdb-api-v4 utility package"
+optional = false
+python-versions = "*"
+files = [
+    {file = "tvdb_v4_official-1.1.0-py3-none-any.whl", hash = "sha256:1d66f87f7d3d36feb4923b37aefd5a048dd208096bc640d1898acb1956fc0ba1"},
+    {file = "tvdb_v4_official-1.1.0.tar.gz", hash = "sha256:c315979f71f4b5e76a92202822c31c3ad7e695237d0901afbeec4e09dbb2218d"},
+]
+
+[[package]]
 name = "urllib3"
 version = "2.2.2"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -328,4 +339,4 @@ requests = ">=2.0.0,<3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "cf2aae0975862490ec52f178ca2d7edfbe01b98185836043dda0c46cf3e32c43"
+content-hash = "fc5976815d5c4ebcc5f2b8ba9f576cdd4dac1961f3a284c087db89ec9ffe08e6"

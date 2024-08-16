@@ -12,6 +12,7 @@ newsapi-python = "^0.2.7"
 python-dotenv = "^1.0.1"
 pyowm = "^3.3.0"
 wikipedia = "^1.4.0"
+tvdb-v4-official = "^1.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
